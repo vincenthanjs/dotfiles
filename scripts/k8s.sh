@@ -8,9 +8,10 @@ echo "alias kga='kubectl get all'" >> ~/.bashrc
 echo "alias kaf='kubectl apply -f'" >> ~/.bashrc
 echo "alias kdf='kubectl delete -f'" >> ~/.bashrc
 echo "alias kd='kubectl describe'" >> ~/.bashrc
+echo "export do='--dry-run=client -oyaml'" >> ~/.bashrc
+echo "export now='--grace-period=0 --force'" >> ~/.bashrc
 source ~/.bashrc
 echo 'set nu ts=2 sw=2 expandtab ruler' > ~/.vimrc
 echo 'set backspace=indent,eol,start' >> ~/.vimrc
 source ~/.vimrc
-export do="--dry-run=client -oyaml"
-export now="--grace-period=0 --force"
+
