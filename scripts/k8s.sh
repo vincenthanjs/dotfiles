@@ -3,7 +3,7 @@ alias k=kubectl
 source <(kubectl completion bash)
 complete -F __start_kubectl k
 echo "alias k='kubectl'" >> ~/.bashrc
-echo "alias ke'kubectl exec -it'" >> ~/.bashrc
+echo "alias ke='kubectl exec -it'" >> ~/.bashrc
 echo "alias kg='kubectl get'" >> ~/.bashrc
 echo "alias kga='kubectl get all'" >> ~/.bashrc
 echo "alias kaf='kubectl apply -f'" >> ~/.bashrc
