@@ -5,6 +5,7 @@ complete -F __start_kubectl k
 echo "alias k='kubectl'" >> ~/.bashrc
 echo "alias ke='kubectl exec -it'" >> ~/.bashrc
 echo "alias kg='kubectl get'" >> ~/.bashrc
+echo "alias ki='kubectl get ingress'" >> ~/.bashrc
 echo "alias kga='kubectl get all'" >> ~/.bashrc
 echo "alias kaf='kubectl apply -f'" >> ~/.bashrc
 echo "alias kdf='kubectl delete -f'" >> ~/.bashrc
